@@ -1,0 +1,22 @@
+div>p {
+    background-color: blueviolet;
+}
+
+div>p+span {
+    color: orange;
+}
+
+h1~p {
+    color: pink;
+    background-color: black;
+}
+
+h1+p {
+    color: red;
+    background-color: aqua;
+}
+
+.container span {
+    color: red;
+    font-weight: bold;
+}
